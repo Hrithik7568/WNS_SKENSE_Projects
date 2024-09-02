@@ -1,0 +1,151 @@
+Exporter
+
+Proforma invoice
+
+Date
+
+PO Number
+
+
+
+
+
+Final recipient
+
+
+
+
+
+Intermediate recipient
+
+
+
+
+
+
+
+
+
+Order number
+
+Terms
+
+
+
+
+
+Commercial invoice number
+
+Pro formal invoice number
+
+
+
+
+
+Recipient
+
+Customer account number
+
+
+
+
+
+Exporter
+
+Loading location
+
+
+
+
+
+Place of departure
+
+Destination country
+
+
+
+
+
+Name of contact exporter
+
+Exporter phone number
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quantity
+
+Product ID
+
+Description
+
+Customs tariff price of total price unit
+
+Sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title
+
+Authorized signature
+
+This document Created Using Shipping Solutions Professional Export Software: www.shippingsolutions.com.
+
+Factory departure value
+Interior transport costs
+Handling fees
+Consular fees
+
+Maritime/air freight
+Insurance fees
+
+Other costs
+
+
+
+
+
+
+
+
+
+Total:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 1 of 1
