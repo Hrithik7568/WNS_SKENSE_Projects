@@ -13,6 +13,7 @@ nltk.download('stopwords')
 
 
 
+#Initializes a Flask application instance. Integrates the Bootstrap library for styling the web application.
 
 app=Flask(__name__)
 Bootstrap(app)
