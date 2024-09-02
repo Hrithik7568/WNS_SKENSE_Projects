@@ -40,6 +40,23 @@ There are huge number of invoices generated across the globe. Different country 
 
 ## Screenshots
 
+
+Workflow:-
+
+* Input Folder: The script assumes there's a folder named 'invoices' containing files to be processed.
+* Output Folder: The script checks if a folder named 'translated_invoices' exists. If not, it creates this folder to store the translated text files.
+* File Processing:
+Iterates over each file in the input_folder.
+Extracts text from an image file using Optical Character Recognition (OCR).
+Detects the language of the input text and translates it to a target language if necessary.
+Processes a file (PDF or image), extracts text, detects its language, and translates it to English (or any specified target language).
+* For each file:
+Constructs the full file path.
+Writes the translated text to a new .txt file in the output_folder.
+Prints a success message for each processed file.
+If an error occurs during processing, it prints an error message for that file.
+
+
 ![1](https://github.com/user-attachments/assets/db442797-2c30-4118-9337-63f21a840bca)
 
 
@@ -67,17 +84,9 @@ The program converts it to english and gives .txt file.
 
 ## Conclusion
 
-Workflow:-
 
-* Input Folder: The script assumes there's a folder named 'invoices' containing files to be processed.
-* Output Folder: The script checks if a folder named 'translated_invoices' exists. If not, it creates this folder to store the translated text files.
-* File Processing:
-Iterates over each file in the input_folder.
-Extracts text from an image file using Optical Character Recognition (OCR).
-Detects the language of the input text and translates it to a target language if necessary.
-Processes a file (PDF or image), extracts text, detects its language, and translates it to English (or any specified target language).
-* For each file:
-Constructs the full file path.
-Writes the translated text to a new .txt file in the output_folder.
-Prints a success message for each processed file.
-If an error occurs during processing, it prints an error message for that file.
+Benefits of this project in business :-
+1. Expansion onto international markets.
+2. Improved credibility and reputation.
+3. Cultural adaptation and local sensitivity.
+4. Improved operational efficiency and cost savings.
