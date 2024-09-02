@@ -87,6 +87,7 @@ High Subjectivity: If the subjectivity score is closer to 1, it indicates that t
 
 Low Subjectivity: If the subjectivity score is closer to 0, it indicates that the feedback is more objective, based on facts or observations rather than personal feelings. For example, "The device has a 10-hour battery life" is an objective statement.
 ![alt text](4.png)
+![1](https://github.com/user-attachments/assets/678a02e6-4895-49cd-9630-16900ef1c154)
 
 
 ## Conclusion
