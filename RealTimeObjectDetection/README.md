@@ -41,11 +41,13 @@ pip install opencv-python
 ```bash
 streamlit run Home.py
 ```
-![alt text](1.png)
+![1](https://github.com/user-attachments/assets/1de30f8a-9318-4c5e-8855-441174bc3087)
+
 
 Interface for web app with 2 options to detect image and real time video capturing through camera.
 
-![alt text](4.png)
+![4](https://github.com/user-attachments/assets/18b7f04b-1a55-465b-ac49-d6e19fff554c)
+
 
 Real time Object Detection as shown above its me.
 
@@ -53,7 +55,8 @@ Real time Object Detection as shown above its me.
 
 -Image Processing: Prepares an image for object detection by converting it into a square format.
 
-![alt text](2.png)
+![2](https://github.com/user-attachments/assets/6eaa187c-b6bc-4bc3-862e-168faf917cd3)
+
 
 -Object Detection: Uses the YOLO model to detect objects in the image, applying confidence filtering and non-maximum suppression to refine detections.
 
@@ -63,7 +66,8 @@ Real time Object Detection as shown above its me.
 
 -Visualization: Draws bounding boxes and class labels on the image for the detected objects.
 
-![alt text](3.png)
+![3](https://github.com/user-attachments/assets/ff4ebf7b-6c56-4e9b-ade7-4bcdcf8bdc92)
+
 
 Detection of cat and dog.
 
