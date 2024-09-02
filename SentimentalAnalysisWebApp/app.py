@@ -18,10 +18,14 @@ nltk.download('stopwords')
 app=Flask(__name__)
 Bootstrap(app)
 
+# Defines the route for the homepage (root URL) of the web application.
+# The function associated with this route. When a user accesses the root URL (/), this function is executed.
 
 @app.route('/')
 def index():
     return render_template('index.html')
+
+# Defines the route for the /analyse URL, which handles POST requests from the client.
 
 @app.route('/analyse', methods=['POST'])
 def analyse():
@@ -31,9 +35,16 @@ def analyse():
         rawtext=request.form['rawtext']
         blob= TextBlob(rawtext)
         received_text=blob
+	    
+# Polarity - attribute of text blob library quantifies positivity or negativity.
+# Subjectivity - attribute measures factual or aspect of text.
+	    
         blob_sentiment,blob_subjectivity=blob.sentiment.polarity, blob.sentiment.subjectivity
         number_of_tokens=len(list(blob.words))
         nouns=list()
+
+# Analyze it for sentiment, tokenize it, identify nouns, and perform random shuffling and pluralization of the nouns.
+	    
         for word, tag in blob.tags:
             if tag=='NN':
                 nouns.append(word.lemmatize())
@@ -52,7 +63,7 @@ def analyse():
 
 
 
-
+# Ensures that the Flask app runs only if the script is executed directly (and not imported as a module
 
 if __name__ == '__main__':
 	app.run(debug=True)
