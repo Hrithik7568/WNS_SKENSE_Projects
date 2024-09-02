@@ -40,23 +40,28 @@ There are huge number of invoices generated across the globe. Different country 
 
 ## Screenshots
 
-![alt text](1.png)
+![1](https://github.com/user-attachments/assets/db442797-2c30-4118-9337-63f21a840bca)
+
 
 In Google Colab we run project and uploaded invoice in pdf as shown above.
 
-![alt text](2.png)
+![2](https://github.com/user-attachments/assets/c0a23563-4945-4661-8202-b9d4dc0cb506)
+
 
 This is the invoice in french.
 
-![alt text](3.png)
+![3](https://github.com/user-attachments/assets/25b23d3f-ae74-47c5-91bb-ba829a0398dc)
+
 
 The program converts it to english and gives .txt file.
 
-![alt text](4.png)
+![4](https://github.com/user-attachments/assets/cca427ac-45ee-4c47-91b8-df702aff2add)
+
 
 The above invoice is in chinese.
 
-![alt text](5.png)
+![5](https://github.com/user-attachments/assets/600d2109-9804-4911-876b-1161dc47c198)
+
 
 The program converts it to english and gives .txt file.
 
