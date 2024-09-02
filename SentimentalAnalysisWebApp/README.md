@@ -72,6 +72,9 @@ python app.py # executing python file
 
 
 UI of Sentimental Analysis for customer feedback.
+It runs on local host on port 5000.
+
+Running on http://127.0.0.1:5000
 
 Positive Sentiment: If the sentiment score is closer to 1, it indicates that the customer feedback is positive. This means that the customer is likely expressing satisfaction, happiness, or approval. For example, "I love this product! It's fantastic!" would yield a high positive score.
 
